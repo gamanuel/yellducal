@@ -16,6 +16,8 @@ Vealas [aqui](api/model/modelDatos.php)
 
 ### Inicio
 
+Url: localhost/yellducal/login.php
+
 La primera vez que se inicia la aplicacion esta genera una base de datos si es que no existe.
 La base de datos creada contiene un usuario de prueba.
 
