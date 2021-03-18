@@ -30,4 +30,11 @@ Usuario: demo
 Contraseña: 1234
 
 
+###### Detalle prueba tecnica
+
+Para la prueba habíamos pensado la realización de un pequeño proyecto con un formulario de login, que permitiera el login del usuario y una vez logueado se mostrara un pequeño crud donde se listaran los usuarios que hay en el sistema y cualquier usuario logueado pudiera añadir usuarios, y modificar o eliminar los usuarios ya existentes.
+Para esta prueba usaríamos simplemente PHP, JS y CSS, sin otros frameworks o librerías del lenguaje.
+
+
+
 
