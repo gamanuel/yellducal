@@ -9,15 +9,9 @@ class SecuredController extends Controller {
   public function __construct(){
     parent::__construct();
     $this->userModel = new UserModel();
-    $this->verifySession();
+    $this->getToken();
   } 
 
-  public function verifySession(){
-
-    $this->getToken();
-    
-    
-  }
 
   protected function  getToken(){
     $headers = apache_request_headers();
