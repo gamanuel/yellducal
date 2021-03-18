@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
+html {
+  height: 100vh;
+}
 
 body {
     background: #1972FE; /* fallback for old browsers */
@@ -11,6 +14,10 @@ body {
 
 .d-none {
   display: none;
+}
+
+.btnContainer {
+  padding: 10px;
 }
 
 .logoSizeLogin {
@@ -89,14 +96,15 @@ button:focus {
 }
 
 .btnLogout {
+  
     background: rgb(54, 54, 54);
-    margin-left: 1rem;
-    margin-right: 1rem;
+    
 }
 .btnLogout:hover,
 .btnLogout:active,
 .btnLogout:focus {
   background: #2e2e2e;
+  
 }
 
 
@@ -140,7 +148,7 @@ h1 {
 
 .cards_item {
   display: flex;
-  padding: 1rem;
+  margin-top: 10px;
 }
 
 @media (min-width: 40rem) {
@@ -151,7 +159,8 @@ h1 {
 
 @media (min-width: 56rem) {
   .cards_item {
-    width: 33.3333%;
+    width: 31%;
+    padding: 10px;
   }
 }
 
@@ -164,7 +173,7 @@ h1 {
 }
 
 .card_content {
-  padding: 1rem;
+  padding: 10px;
   background-color: white;
 }
 

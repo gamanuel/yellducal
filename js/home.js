@@ -16,8 +16,12 @@ document.addEventListener('DOMContentLoaded', e => {
 
     let uriUsers = 'api/users';
 
+    document.querySelector('#userLoggedIn').innerHTML =  sessionStorage.getItem('user');
+
     document.querySelector('#logout').addEventListener('click', r => {
         sessionStorage.removeItem('token');
+        sessionStorage.removeItem('user');
+
         location.replace('login.php');
     });
     

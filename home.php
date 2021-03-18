@@ -15,8 +15,10 @@
     <body>
 
         <div class="main">
-        <h1>Crud usuarios</h1>
-        <button class="btnLogout" id="logout">Cerrar sesion</button>
+        <h1>CRUD usuarios</h1>
+        <div class="btnContainer">
+            <button class="btnLogout" id="logout"> Usuario: <span id="userLoggedIn"></span> / Cerrar sesion</button>
+        </div>
         <ul class="cards" >
             <li class="cards_item" >
                 <div class="card">

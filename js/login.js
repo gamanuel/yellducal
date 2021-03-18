@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', e => {
             } 
             if(response.status === 'success'){
                 sessionStorage.setItem('token', response.token);
+                sessionStorage.setItem('user', USER.value);
                 location.replace('home.php');
             }
             else {

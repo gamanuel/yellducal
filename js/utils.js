@@ -33,5 +33,6 @@ function validateSession(){
     if(token){
         return token;
     }
+    sessionStorage.removeItem('user');
     return null;
 }
